@@ -7,6 +7,7 @@ import (
 	"net/http"
 )
 
+// Dialer is implemented by websocket.Dialer
 type Dialer interface {
 	// Dial creates a new client connection. Use requestHeader to specify the
 	// origin (Origin), subprotocols (Sec-WebSocket-Protocol) and cookies (Cookie).
